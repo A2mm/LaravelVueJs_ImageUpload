@@ -26,6 +26,7 @@ class ArticleController extends Controller
                 'id'      => $article->id,
                 'article' => $article,
             ]);
-        } // end if
+        } 
+        // end if condition
     }
 }
